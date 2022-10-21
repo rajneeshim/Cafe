@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE CHOPHOUSE</title>
+</head>
+<body>
+    <style>
+        .myclass{
+            color: white;
+            /* background-color: black; */
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+
+        }
+        .body{
+          
+        }
+    </style>
+    
+    <div class="myclass">
+    <marquee style="color:white; font-size: 50px;font-style: italic;background-image: linear-gradient(black,black ); " ><h1>THE CHOPHOUSE</h1></marquee>
+    <marquee  style=" color: white; font-size: 50px; font-family: regular400; font-style: italic;" width="70%"  direction="right"  height="200px" >
+     <h4>enjoy the cup of refreshment</h4>
+      </marquee><br>
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        overflow: hidden;
+        /* background-image: linear-gradient(black, black); */
+      }
+      
+      li {
+        float:left;
+        
+      }
+      
+      li a {
+        display: block;
+        padding: 20px;
+        color: white;
+        align-items: center;
+      }
+      .a{
+          /* background-color: black; */
+          /* border: black; */
+          border-radius: 450px;
+          margin-left: 40%;
+      }
+      </style>
+      </head>
+      <body background="https://images7.alphacoders.com/394/394204.jpg">
+      
+      
+    </style>
+    
+    <template style="font-size: 500px;"><div class="a"><h4> </h4>
+    
+
+
+   </div>
+      </template>
+    <script>
+        function showContent() {
+          var temp = document.getElementsByTagName("template")[0];
+          var clon = temp.content.cloneNode(true);
+          document.body.appendChild(clon);
+        }
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .dropbtn {
+          background-color: black;
+          color: white;
+          padding: 16px;
+          font-size: 75px;
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .dropbtn:hover, .dropbtn:focus {
+          background-color:gray;
+          font-style: italic;
+          font-family: cursive;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          font-size: 50px;
+          font-style: italic;
+          position: absolute;
+          background-color: rgb(49, 47, 47);
+          min-width: 75px;
+          overflow: auto;
+          box-shadow: 0px 8px 16px 0px grey;
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: white;
+          padding: 20px 100px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown a:hover {background-color:grey;}
+        
+        .show {display: block;
+            
+        }
+        
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+             <a href="#about">About</a>
+            <a href="#products"> Products</a>
+            <a href="#cart">cart</a>
+            <a href="#login page">Sign out</a>
+          </div>
+        </div>
+        
+        <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+         <div class="b"><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60">
+          
+        <p> </p></div> 
+        
+        
+        
+    </div>
+    
+
+</body>
+</html>
